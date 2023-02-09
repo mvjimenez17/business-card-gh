@@ -20,7 +20,6 @@ body{
     display: grid;
     grid-template-columns: 1fr;
     width: 940px;
-    gap: 15px;
     margin: auto;
     justify-items: center;
     align-items: center;
@@ -239,7 +238,7 @@ body{
 
 .inf__personal{
     font-size: 28px;
-    font-weight: normal;
+    font-weight: bold;
     padding: 10px;
     line-height: 25px;
     color: #ff8500;
@@ -272,8 +271,9 @@ body{
 
 .botones:hover{
     cursor: pointer;
-    width: 100%;
-    box-shadow: 0 0 10px #ff7f51;
+    /* width: 100%; */
+    box-shadow: 0 0 15px #ff7f51;
+    font-weight: bold;
 }
 
 .botones span{
@@ -285,6 +285,8 @@ body{
     .contenedor{
         grid-template-columns: 1fr;
     } 
+
+
 }
 
 
